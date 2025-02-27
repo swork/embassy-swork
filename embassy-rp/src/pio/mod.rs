@@ -18,7 +18,7 @@ use crate::interrupt::typelevel::{Binding, Handler, Interrupt};
 use crate::relocate::RelocatedProgram;
 use crate::{pac, peripherals, RegExt};
 
-mod instr;
+pub mod instr;
 
 #[doc(inline)]
 pub use pio as program;
